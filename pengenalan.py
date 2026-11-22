@@ -1,29 +1,14 @@
-#percabangan
 # input
-nilai = int(input("Masukkan Nilai: "))
-# proses 
-if nilai >=80 and nilai<=100:
-    print("Anda Mendapatkan Nilai A")
-elif nilai >=70 and nilai <=80:
-     print("Anda Mendapatkan Nilai B")
-elif nilai >=50 and nilai <=70:
-     print("Anda Mendapatkan Nilai C")     
-elif nilai >=30 and nilai <=50:
-     print("Anda Mendapatkan Nilai D")    
-elif nilai >=0 and nilai <=20:
-     print("Anda Mendapatkan NilaI E")
-else:
-     print("Data Tidak Valid")
-print("=========LATIHAN=========")
-#input
-namabarang =input("Masukkan Nama Barang:")
-hargabarang =int (input("Masukkan Harga Barang:"))
-#proses
-if namabarang=="kulkas":
-     print (hargabarang - 0.10)
-elif namabarang =="tv":
-     print(hargabarang - 0.5)
-elif namabarang=="radio":
-     print("Tidak dapat diskon")
-else:
-     print("angka tidak valid")
+nama = input("masukkan nama:")
+kelas = input("masukkan kelas:")
+jurusan = input("masukkan jurusan:")
+prodi = input("masukkan prodi:")
+no_hp = input("masukkan no hp:")
+email = input("masukkan email:")
+# output
+print(nama)
+print(kelas)
+print(jurusan)
+print(prodi)
+print(no_hp)
+print(email)
